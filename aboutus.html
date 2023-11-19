@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+    h13{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.2em 1em;
+        text-align: center;
+    }
+    .column {
+        width: 100%;
+        padding: 0.5em 0;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 3.5em;
+        color: #023047;
+    }
+    .card {
+        box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+        padding: 3.5em 1em;
+        border-radius: 0.6em;
+        color: #1f003b;
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #ffffff;
+    }
+    .card .img-container {
+        width: 8em;
+        height: 8em;
+        background-color: #98c1d9;
+        padding: 0.5em;
+        border-radius: 50%;
+        margin: 0 auto 2em auto;
+    }
+    .card img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    .card h3 {
+        font-weight: 500;
+    }
+    .card p5 {
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 0.5em 0 2em 0;
+        letter-spacing: 2px;
+    }
+    .card p6{
+        font-weight: 300;
+        margin: 0.5em 0 2em 0;
+    }
+    .icons {
+        width: 50%;
+        min-width: 180px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.4em;
+    }
+    .card:hover {
+        background: linear-gradient(#293241, #3d5a80, #98c1d9);
+        color: #ffffff;
+    }
+    .card:hover .img-container {
+        transform: scale(1.15);
+    }
+    @media screen and (min-width: 768px) {
+        section {
+            padding: 1em 7em;
+        }
+    }
+    @media screen and (min-width: 992px) {
+        section {
+            padding: 1em;
+    }
+    .card {
+        padding: 5em 1em;
+    }
+    .column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+        }
+    }
+</style>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/white logo.png" alt="white logo" style="width: 110px; height: 110px;"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fas fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h13>About Us</h13>
+</section>
+    
+<!------ about us content ------>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h13>We are the World's Largest IoT Industry</h13>
+            <p>At TJ Industries, we are driven by a profound commitment to pioneering technological excellence and reshaping the landscape of connectivity through the Internet of Things, where our dedicated team of seasoned professionals works tirelessly to engineer innovative solutions that seamlessly blend cutting-edge hardware design, sophisticated software development, and advanced data analytics, ensuring that our clients not only stay ahead in the rapidly evolving digital era but also experience the transformative power of intelligent, interconnected ecosystems that redefine the way we interact with the world.</p>
+        </div>
+        <div class="about-col">
+            <img src="Images/about.jpg" alt="About Us Picture">
+        </div>
+    </div>
+</section>
+    
+<!------ Team Members ------>
+
+<section>
+      <div class="row">
+        <h1>Our Team</h1>
+      </div>
+      <div class="row">
+        <!-- Column 1-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="Images/pexels-chloe-1043473.jpg" alt="Chris Hemsworth">
+            </div>
+            <h3>Chris Hemsworth</h3>
+            <p5>Founder / CEO</p5>
+              <br>
+              <br>
+            <p6>Chris Hemsworth is Chief Executive Officer of TJ Industries<br>and serves on its board of directors.</p6>
+              <br>
+              <br>
+            <div class="icons">
+              <a href="https://twitter.com/chrishemsworth?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/chris-hemsworth-3213a810a">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/chrishemsworth/">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/chrishemsworth/?hl=en">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="Images/pexels-jonaorle-7577568.jpg" alt="Emma Watson">
+            </div>
+            <h3>Emma Watson</h3>
+            <p5>Square Chief Executive Officer</p5>
+              <br>
+              <br>
+            <p6>Emma Watson joined TJ Industries’s board of directors in January 2020. Ms. Watson is an independent director.</p6>
+              <br>
+              <br>
+            <div class="icons">
+              <a href="https://twitter.com/emmawatson?lang=en">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/emma-watson-9a41301a8">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/emmawatson/">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/emmawatson/?hl=en">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="Images/pexels-frank-k-1851253.jpg" alt="Michael B. Jordan">
+            </div>
+            <h3>Michael B. Jordan</h3>
+            <p5>Chief Financial Officer</p5>
+              <br>
+              <br>
+            <p6>Michael Jordan is Executive Chief Financial Officer (CFO) at TJ Industries. He leads TJ’s global finance organization.</p6>
+              <br>
+              <br>
+            <div class="icons">
+              <a href="https://twitter.com/michaelb4jordan?lang=en">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/michael-b-jordan-897969273">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/michaelbjordan/">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/michaelbjordan/?hl=en">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br>
+<br>
+
+<!------ Footer ------>
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">company</h4>
+  	 			<ul>
+  	 				<li><a href="aboutus.html" style="text-align: left;">about us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">get help</h4>
+  	 			<ul>
+  	 				<li><a href="https://www.riotgames.com/en/faq" style="text-align: left;">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">online shop</h4>
+  	 			<ul>
+  	 				<li><a href="products.html" style="text-align: left;">products</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">follow us</h4>
+  	 			<div class="social-links" style="text-align: left;">
+  	 				<a href="https://www.facebook.com/facebook"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/X"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/instagram/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/linkedin/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>

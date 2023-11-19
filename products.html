@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+<style>
+    *{
+        font-family: 'Nunito', sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        outline: none; border:none;
+        text-decoration: none;
+        transition: all .2s linear;
+        text-transform: capitalize;
+    }
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+
+    body{
+        background: #eee;
+    }
+    h13{
+        font-size: 36px;
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/white logo.png" alt="white logo" style="width: 110px; height: 110px;"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fas fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h13>Products</h13>
+</section>
+    
+<!------ products content ------>
+<br>
+<section>
+    <div class="container">
+
+   <h3 class="title"> IoT products </h3>
+        <br>
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images/googlehome.jpg" alt="Google Home">
+         <h3>Google Home</h3>
+         <div class="price">S$368.99</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/camera.jpg" alt="Security Camera">
+         <h3>Security Camera</h3>
+         <div class="price">S$179.99</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/roomba.jpg" alt="Roomba">
+         <h3>Roomba</h3>
+         <div class="price">S$467.26</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/watch.jpg" alt="Galaxy Watch">
+         <h3>Galaxy Watch</h3>
+         <div class="price">S$519.34</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/drone.jpg" alt="Drone">
+         <h3>Drone</h3>
+         <div class="price">S$798.26</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/fridge.png" alt="Refrigerator">
+         <h3>Smart Refrigerator</h3>
+         <div class="price">S$1,710</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/google_home.jpg" alt="Google Home">
+      <h3>Google Home</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$368.99</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/Google-Nest-Wifi-Extender-Wireless/dp/B07YMJ57MB/ref=sr_1_3?crid=A1YKI9ASQQO6&keywords=google+home&qid=1699970445&sprefix=google+home%2Caps%2C307&sr=8-3" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/camera.jpg" alt="Security Camera">
+      <h3>Security Camera</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$179.99</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/Noorio-B310-Wireless-Ultra-Bright-Spotlight/dp/B0B6P78P2G/ref=sr_1_1_sspa?crid=UGSZNAW2CUPR&keywords=ip%2Bcamera&qid=1699970213&sprefix=security%2Bcamera%2Caps%2C727&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/roomba.jpg" alt="Roomba">
+      <h3>Roomba</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$467.26</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/iRobot-Vacuum-Wi-Fi-Connectivity-Carpets-Self-Charging/dp/B08SP5GYJP/ref=sr_1_5?crid=1J8RRP43F4T2I&keywords=roomba&qid=1699970471&sprefix=roomb%2Caps%2C290&sr=8-5" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/watch.jpg" alt="Galaxy Watch">
+      <h3>Galaxy Watch</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$519.34</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/SAMSUNG-Bluetooth-Smartwatch-Personalized-Advanced/dp/B0C797946T/ref=sr_1_14?crid=1NQ7CJUJLUMUT&keywords=galaxy%2Bwatch&qid=1699970491&sprefix=galaxy%2Bwatc%2Caps%2C288&sr=8-14&th=1" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/drone.jpg" alt="Drone">
+      <h3>Drone</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$798.26</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/DJI-Mini-RC-Lightweight-Intelligent/dp/B0BL3NZT5D/ref=sr_1_9?crid=18MQ2ZTT9XQ0F&keywords=drone%2Bcamera&qid=1699970540&sprefix=drone%2Bcamer%2Caps%2C280&sr=8-9&th=1" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/fridge.jpg" alt="Refrigerator">
+      <h3>Smart Refrigerator</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">S$1,710</div>
+      <div class="buttons">
+         <a href="https://www.amazon.sg/Samsung-RT53K6657B1-2-Door-Fridge-Ticks/dp/B09KCGCZBM/ref=sr_1_2?crid=2309N3IOBR2PS&keywords=smart+refrigerators&qid=1699970349&sprefix=%2Caps%2C287&sr=8-2" class="buy">buy now</a>
+         <a href="https://www.amazon.sg/gp/cart/view.html?ref_=nav_cart" class="cart">add to cart</a>
+      </div>
+   </div>
+
+</div>
+</section>
+<br>
+<br>
+<br>
+<!------ Footer ------>
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">company</h4>
+  	 			<ul>
+  	 				<li><a href="aboutus.html" style="text-align: left;">about us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">get help</h4>
+  	 			<ul>
+  	 				<li><a href="https://www.riotgames.com/en/faq" style="text-align: left;">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">online shop</h4>
+  	 			<ul>
+  	 				<li><a href="products.html" style="text-align: left;">products</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4 style="text-align: left;">follow us</h4>
+  	 			<div class="social-links" style="text-align: left;">
+  	 				<a href="https://www.facebook.com/facebook" style="font-size: 162.5%;"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/X" style="font-size: 162.5%;"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/instagram/" style="font-size: 162.5%;"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/linkedin/" style="font-size: 162.5%;"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>

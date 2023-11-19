@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to TJ Industries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/white%20logo.png" alt="white logo" style="width: 110px; height: 110px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>World's Biggest IoT Industry</h1>
+    <p>The opportunity we have is to build a secure, intelligent platform that solves some of the world’s greatest problems at scale.<br/>That’s what’s possible with hundreds of billions of connections and the capabilities that we can deliver together.</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+    
+<!------ Course ------>
+    
+<section class="course">
+    <h1>Learn About IoT’s Impact in Your Industry</h1>
+    
+    <div class="row">
+        <div class="course-col">
+            <h11>Healthcare</h11>
+            <p>Enable better patient outcomes through connected smart hospitals with IoT solutions for <b>telehealth, medical imaging, and diagnostics.</b></p>
+        </div>
+        <div class="course-col">
+            <h11>Retail</h11>
+            <p>Unlock enhanced <b> experiences and store performance </b> through personalization, customized offers, and deeper knowledge of customer behavior.</p>
+        </div>
+        <div class="course-col">
+            <h11>Industrial</h11>
+            <p>Reach new levels of uptime, efficiency, and <b> safety through automation and near-real-time operational insight regarding equipment status, health, and production issues.</b></p>
+        </div>
+    </div>
+    
+</section>
+    
+ <!------ industry ------> 
+ 
+<section class="industry">
+    <h1>Our Global Industry</h1>
+    
+    <div class="row">
+        <div class="industry-col">
+            <img src="Images/london.png" alt="London">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="industry-col">
+            <img src="Images/newyork.png" alt="New York">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="industry-col">
+            <img src="Images/washington.png" alt="Washington">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    <h1>Bring Your Skills In And Be A Part Of Our Success Story<br>Apply Now For An Exciting Opportunity</h1>
+    <a href="contactus.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!------ Footer ------>
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="aboutus.html">about us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="https://www.riotgames.com/en/faq">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="products.html">products</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/facebook"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/X"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/instagram/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/linkedin/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
